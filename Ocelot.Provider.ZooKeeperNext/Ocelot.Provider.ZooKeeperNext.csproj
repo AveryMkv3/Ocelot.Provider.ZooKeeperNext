@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Description>Provides Ocelot extensions to use ZooKeeper</Description>
+    <AssemblyTitle>Ocelot.Provider.Consul</AssemblyTitle>
+    <AssemblyName>Ocelot.Provider.ZooKeeperNext</AssemblyName>
+    <PackageId>Ocelot.Provider.ZooKeeperNext</PackageId>
+    <PackageTags>API Gateway;.Net6.0</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.1.20</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ocelot" Version="18.0.0" />
+    <PackageReference Include="ZooKeeperNetEx" Version="3.4.12.4" />
+  </ItemGroup>
+  
+</Project>
